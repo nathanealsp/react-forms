@@ -10,7 +10,7 @@ class ProductRow extends Component {
 			</span>;
 
 		return (
-			<tr>
+			<tr className='_tr'>
 				<td>{name}</td>
 				<td>{product.price}</td>
 			</tr>

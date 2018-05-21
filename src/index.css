@@ -3,3 +3,31 @@ body {
 	padding: 0;
 	font-family: sans-serif;
 }
+
+/* table thead tr th tbody */
+
+table {
+	margin: 0 auto;
+	display: grid;
+	width: 90%;
+	border: 2px solid blue;
+}
+
+._tr {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	padding: 5px;
+	grid-gap: 5px;
+	border: 2px solid salmon;
+	text-align: center;
+}
+
+td {
+	background: rgba(255, 0, 0, 0.192);
+}
+
+/* tbody>tr {
+	grid-gap: 55px;
+	background: blue;
+	border: 2px solid black;
+} */

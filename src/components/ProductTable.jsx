@@ -35,8 +35,8 @@ class ProductTable extends Component {
 
 		return (
 			<table>
-				<thead>
-					<tr>
+				<thead className="_thead">
+					<tr className="_tr">
 						<th>Name</th>
 						<th>Price</th>
 					</tr>
