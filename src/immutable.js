@@ -8,15 +8,13 @@ console.log(a, b);
 console.log(Object.keys(a));
 console.log(Object.values(a));
 
-console.log(
-  Object.values(a).map(val => {
-    val * 5;
-  })
-);
+const Objd = Object.values(a).map(val => {val * 5; })
+console.log(Objd);
 
 const c = [0, 1, 2];
 const d = [...c, 4, 5, 6];
-console.log(c, d); //  [0, 1, 2] , [0, 1, 2, 4, 5, 6]
+console.log(c, d);
+//  [0, 1, 2] , [0, 1, 2, 4, 5, 6]
 
 import { createStore } from "redux";
 
