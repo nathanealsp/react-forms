@@ -7,7 +7,7 @@ class FilterableProductTable extends Component {
 			filterText: '',
 			inStockOnly: false
 		};
-	}
+	
 
 	handleFilterTextChange = (filterText)=>{
 		this.setState({

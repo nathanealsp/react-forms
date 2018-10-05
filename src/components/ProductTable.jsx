@@ -4,8 +4,8 @@ import ProductCategoryRow from './ProductCategoryRow';
 
 class ProductTable extends Component {
   render() {
-    const filterText = this.props.filterText;
-    const inStockOnly = this.props.inStockOnly;
+    const filterText = this.props;
+    const inStockOnly = this.props;
 
     const rows = [];
     let lastCategory = null;
